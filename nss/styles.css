@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #171717;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Barra lateral */
+
+.sidebar {
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    color: #fff;
+    overflow-y: auto;
+    border-radius: 0 5px 5px 0;
+}
+
+.logo {
+    text-align: left;
+    padding: 20px;
+}
+
+.circle {
+    background-color: #007acc;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle i {
+    font-size: 32px;
+    color: #fff;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.sidebar h2 {
+    background-color: #007acc;
+    padding: 7px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.sidebar h2:hover {
+    background-color: #03305e;
+    border-radius: 5px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #0050a0;
+    border-radius: 5px;
+}
+
+.sidebar ul ul {
+    margin-left: 20px;
+}
+
+.sidebar ul ul a {
+    padding: 5px 20px;
+}
+
+/*
+.sidebar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    color: #fff;
+    overflow-y: auto;
+}
+
+.logo {
+    text-align: left;
+    padding: 20px;
+}
+
+.circle {
+    background-color: #007acc;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle i {
+    font-size: 32px;
+    color: #fff;
+}
+.sidebar .menu {
+    list-style: none;
+}
+
+.sidebar .menu li {
+    margin-bottom: 10px;
+}
+
+.sidebar .menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.sidebar .menu a:hover {
+    background-color: #007acc;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+*/
+
+main {
+    width: 80%;
+    margin: 20px 18%;
+    padding: 20px;
+    background-color: #61a8eb;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+article {
+    margin-bottom: 75px;
+}
+
+article h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+article p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Estilos para capítulos (secciones) */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Estilos para títulos de capítulos */
+section h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #007acc; /* Color para títulos de capítulos */
+}
+
+/* Estilos para subcapítulos (artículos) */
+article {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-left: 5px solid #007acc; /* Línea lateral para subcapítulos */
+    border-radius: 5px;
+}
+
+/* Estilos para títulos de subcapítulos */
+article h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #333; /* Color para títulos de subcapítulos */
+}
+
+/* Pie de pagina */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 80%;
+    margin: 0 18%;
+    border-radius: 5px 5px 0 0;
+}
+
+/* Ejemplos de cogido */
+
+.code-example {
+/*    min-width: 10%;
+    max-width: 40%;*/
+    width: 30%;
+    height: auto;
+    color: #ddd;
+    text-align: left;
+    background-color: #000000;
+    border: 1px solid #ddd;
+    padding: 0px;
+    margin-bottom: 20px;
+    position: relative;
+    border-radius: 5px;
+}
+
+/* Boton copiar */
+/*
+.copy-button {
+    position: absolute;
+    top: 1px;
+    right: 0.5px;
+    background-color: #007acc;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.copy-button:hover {
+    background-color: rgb(43, 145, 240);
+}*/
+
+
+/* Estilos para el subapartado */
+.sub-apartado {
+    display: flex; /* Utiliza un diseño flexbox para alinear la imagen y el texto en línea */
+    align-items: center; /* Centra verticalmente los elementos dentro del div */
+    margin: 20px 0; /* Agrega margen superior e inferior para separar los subapartados */
+}
+
+/* Estilos para la imagen en el subapartado */
+.sub-apartado img {
+    max-width: 200px; /* Ajusta el ancho máximo de la imagen según tus necesidades */
+    margin-right: 30px; /* Agrega espacio a la derecha de la imagen */
+    border-radius: 5px;
+}
+
+/* Estilos para el recuadro del texto */
+.texto-con-recuadro {
+    height: auto;
+    width: 30%;
+    background-color: #d9d9d9; /* Color de fondo del recuadro */
+    padding: 10px; /* Espacio alrededor del texto */
+    border: 1px solid #ddd; /* Borde del recuadro */
+    border-radius: 5px; /* Borde redondeado */
+    margin-right: 10px;
+}
+
+/* Estilos para el texto en el subapartado */
+.texto-con-recuadro p {
+    font-size: 16px;
+    margin: 0; /* Elimina el margen predeterminado del párrafo */
+}
