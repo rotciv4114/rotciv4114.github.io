@@ -4,17 +4,10 @@
 Mi nombre es [Victor Martinez](https://github.com/rotciv4114) 
 
 
----
-layout: default
----
-
-# {{ site.name }}
-## {{ site.title }}
-
 ## Información de Contacto
-- **Email:** {{ site.email }}
-- **LinkedIn:** [LinkedIn]({{ site.linkedin }})
-- **GitHub:** [GitHub]({{ site.github }})
+- **Email:** 123456789
+- **LinkedIn:** [Linkedin](https://www.google.com/) 
+- **GitHub:** [GitHub](https://www.google.com/) 
 
 ## Experiencia Laboral
 ### Desarrollador de Software - Empresa ABC (Fecha de inicio - Fecha de finalización)
