@@ -1,34 +1,43 @@
 # rotciv4114.github.io
 # Bienvenidos a mi página de inicio
 
-Me presentaré, mi nombre es [Victor Martinez](https://github.com/rotciv4114) 
-
-En esta práctica enseñaré a los alumnos a usar Github para incluir proyectos en repositorios y publicar una página web como esta para poder tener un portafolio de proyectos de código.
+Mi nombre es [Victor Martinez](https://github.com/rotciv4114) 
 
 
-### PARA LA PRÁCTICA DE GITHUB:
+---
+layout: default
+---
 
-A través del lenguaje _Markdown_ de Github (de la misma forma que usabamos otros lenguajes de marcas) podemos modificar nuestra pagina de Jekyll para visualizar información como nosotros queramos que se vea aunque este también admite HTML+CSS como lenguaje. A continuación tienes las convenciones usadas para modificar tu página de Github:
+# {{ site.name }}
+## {{ site.title }}
 
-```markdown
-Syntax highlighted code block
+## Información de Contacto
+- **Email:** {{ site.email }}
+- **LinkedIn:** [LinkedIn]({{ site.linkedin }})
+- **GitHub:** [GitHub]({{ site.github }})
 
-# Header 1
-## Header 2
-### Header 3
+## Experiencia Laboral
+### Desarrollador de Software - Empresa ABC (Fecha de inicio - Fecha de finalización)
+Descripción de las responsabilidades y logros en este puesto.
 
-- Bulleted
-- List
+## Educación
+### Grado en Ingeniería Informática - Universidad XYZ (Año de inicio - Año de finalización)
+Descripción adicional, honores, etc.
 
-1. Numbered
-2. List
+## Habilidades Técnicas
+- JavaScript
+- HTML5, CSS3
+- React, Node.js
+  <!-- Agrega más habilidades según sea necesario -->
 
-**Bold** and _Italic_ and `Code` text
+## Proyectos Destacados
+- **Nombre del Proyecto 1:** Descripción breve y enlace a GitHub.
+- **Nombre del Proyecto 2:** Descripción breve y enlace a GitHub.
+  <!-- Agrega más proyectos según sea necesario -->
 
-[Link](url) and ![Image](src)
-```
+**Última actualización:** {{ site.time | date: "%Y-%m-%d" }}
 
-Para más detalles visita [Escritura básica y formateo de textos](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+
 
 <!-- Si estas viendo esto, vas bien!-->
 # Practica UF2.3: Uso de Github 
@@ -37,6 +46,8 @@ A continuación lo que quiero que hagais es que monteis vuestro própio reposito
 - [ ] Debe contener varias categorias debidamente separadas y distinguidas
 - [ ] Debe contener listas
 - [ ] Debe estar formateado el texto para _cursiva_ y **negrita**
+
+
 
 Lo siguiente que deberéis crear es una categoría dentro del CV que sea el **portfolio**. Subid varias carpetas con proyectos de HTML/CSS realizados en clase o de otros lenguajes (Batch, python...) y enlazadlas en vuestro CV tal que así:
 - [Ejemplo 1](/nss/)
