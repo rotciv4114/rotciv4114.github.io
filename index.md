@@ -17,10 +17,12 @@ Mi nombre es [Victor Martinez](https://github.com/rotciv4114)
 ### Empresa de practicas
 Mantenimineto y actualizacion de servicios
 
-## Habilidades Técnicas
-- Identificacion y solucion de errores o desperfectos en el Hardware y Software
-- JavaScript
-- HTML5, CSS3
+## Habilidades Técnicas | Conociminetos | Competencias
+- Conociminetos basicos de HTML5 y CSS3
+- Experiencia en el antenimiento y reparación de ordenadores.
+- Experiencia en la instalación y configuración de sistemas operativos (Windows, Linux...).
+- Comprensión básica de redes locales y protocolos de red.
+- Competencia en el manejo de herramientas de ofimática como Microsoft Office.
 
 ## Ejemplo Paginas WEB
 - [Ejemplo 1](/nss/)
@@ -28,7 +30,7 @@ Mantenimineto y actualizacion de servicios
 
 ## Proyectos Personales
 - **Servideres en la plataforma FiveM:**
-- Creacion de Servidores de Juego con el uso de lua, SQL, conocimientos de GTAV, conocimiento de configuracion y instalacion de servidores.
+- Creacion de Servidores de Juego con el uso de lua, SQL y conocimientos de GTAV.
  <!-- - **Nombre del Proyecto 2:** Descripción breve y enlace a GitHub. -->
   <!-- Agrega más proyectos según sea necesario -->
 
