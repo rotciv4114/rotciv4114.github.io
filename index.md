@@ -5,30 +5,31 @@ Mi nombre es [Victor Martinez](https://github.com/rotciv4114)
 
 
 ## Información de Contacto
-- **Email:** 123456789
-- **LinkedIn:** [Linkedin](https://www.google.com/) 
-- **GitHub:** [GitHub](https://www.google.com/) 
+- **Email:** victorml4114@gmail.com
+- **LinkedIn:** [Linkedin](www.linkedin.com/in/victor-martinez-bb9291210) 
+- **GitHub:** [GitHub](https://github.com/rotciv4114/) 
 
 ## Educación
-### Grado en Ingeniería Informática - Universidad XYZ (Año de inicio - Año de finalización)
-Descripción adicional, honores, etc.
+### Educacion Secundaria Obligatorio - IES Sant Just
+### Grado Medio en Sistemas Microinformaticos y Redes - IFP Formacion Grupo Planeta
 
 ## Experiencia Laboral
-### Desarrollador de Software - Empresa ABC (Fecha de inicio - Fecha de finalización)
-Descripción de las responsabilidades y logros en este puesto.
+### Empresa de practicas
+Mantenimineto y actualizacion de servicios
 
 ## Habilidades Técnicas
+- Identificacion y solucion de errores o desperfectos en el Hardware y Software
 - JavaScript
 - HTML5, CSS3
-- React, Node.js
 
 ## Ejemplo Paginas WEB
 - [Ejemplo 1](/nss/)
 - [Ejemplo 2](/paginaweb/)
 
-## Proyectos Destacados
-- **Nombre del Proyecto 1:** Descripción breve y enlace a GitHub.
-- **Nombre del Proyecto 2:** Descripción breve y enlace a GitHub.
+## Proyectos Personales
+- **Servideres en la plataforma FiveM:**
+- Creacion de Servidores de Juego con el uso de lua, SQL, conocimientos de GTAV, conocimiento de configuracion y instalacion de servidores.
+ <!-- - **Nombre del Proyecto 2:** Descripción breve y enlace a GitHub. -->
   <!-- Agrega más proyectos según sea necesario -->
 
 **Última actualización:** {{ site.time | date: "%Y-%m-%d" }}
