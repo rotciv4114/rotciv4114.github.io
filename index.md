@@ -1,7 +1,7 @@
 # rotciv4114.github.io
 # Bienvenidos a mi página de inicio
 
-Mi nombre es [Victor Martinez](https://github.com/rotciv4114) 
+Mi nombre es **Victor Martinez**
 
 
 ## Información de Contacto
